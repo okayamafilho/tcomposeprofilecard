@@ -126,18 +126,6 @@ fun UserProfileDetailScreen(userId: Int, navController: NavHostController?) {
     }
 }
 
-//@Composable
-//fun UserListScreen(
-//    userProfiles: List<UserProfile>,
-//    navController: NavHostController?
-//) {
-//    LazyColumn(modifier = Modifier.padding(top = 64.dp)) {
-//        items(userProfiles) { userProfile ->
-//            ProfileCard(userProfile = userProfile)
-//        }
-//    }
-//}
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AppBar(title: String, icon: ImageVector, iconClickAction: () -> Unit) {
